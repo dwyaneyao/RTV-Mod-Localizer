@@ -58,7 +58,7 @@ The Localizer intentionally does **not** rename node ids, resource paths, file p
 
 ## Installation (End User)
 
-1. Install [00ModConfigurationMenu](https://www.nexusmods.com/) (MCM). Required for the settings menu.
+1. Install [00ModConfigurationMenu](https://modworkshop.net/mod/53713) (MCM). Required for the settings menu.
 2. Drop `RTV-mod-Localizer.vmz` into `…/Road to Vostok/mods/`.
 3. Drop the `RTV-mod-Localizer/Packs/` folder (containing one sub-folder per translated mod) into `…/Road to Vostok/mods/` so the final path looks like `…/mods/RTV-mod-Localizer/Packs/<mod_id>/<locale>.json`.
 4. Launch the game, open MCM → **RTV-mod-Localizer**, enable the locales you want per mod, return to the main menu, then restart the game.
