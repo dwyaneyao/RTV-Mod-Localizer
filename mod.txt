@@ -1,0 +1,7 @@
+[mod]
+name="RTV Mod Localizer"
+id="rtv-mod-localizer"
+version="0.3.9"
+priority=100
+[autoload]
+RTVModLocalizer="res://mods/RTVModLocalizer/Main.gd"
