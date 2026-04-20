@@ -1,10 +1,12 @@
 # RTV-mod-Localizer
 
+[![Companion repo: RTV-Text-Extractor](https://img.shields.io/badge/Companion%20repo-RTV--Text--Extractor-blue?style=for-the-badge&logo=github)](https://github.com/dwyaneyao/RTV-Text-Extractor)
+
 An offline localization builder for [Road to Vostok](https://store.steampowered.com/app/2615690/Road_to_Vostok/) mods.
 
 It reads JSON translation packs, rebuilds the affected mod `.vmz` archives with translated strings, and hands the new `.vmz` files to Road to Vostok on the next launch. It does **not** hook the UI, patch anything at runtime, or ship translations itself — packs are authored by the community, and this mod just builds/deploys them.
 
-Companion tool: [RTV-text-extractor](https://github.com/) — a Python script that scans a `.vmz` and emits a ready-to-fill pack JSON, so translators can skip hand-digging through `.vmz` internals.
+Companion tool: [RTV-Text-Extractor](https://github.com/dwyaneyao/RTV-Text-Extractor) — a Python script that scans a `.vmz` and emits a ready-to-fill pack JSON, so translators can skip hand-digging through `.vmz` internals.
 
 **Locale-agnostic.** The builder and the extractor are not Chinese-specific. The published release bundle happens to ship `zh_cn` packs as an example, but the same format, same workflow, and same MCM UI support every locale below. A pack is just `<locale>.json` placed under `Packs/<mod_id>/`:
 
